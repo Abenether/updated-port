@@ -109,12 +109,13 @@ h2 {
 
 #portfolio{
 	float:left;
-	background-color: white;
-	border: 1px solid #dddddd;
+	background-color: rgb(99, 24, 24);
+	border: 1px solid #000000;
 	overflow: auto;
 	width: 650px;
 	margin-bottom:30px;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
+    opacity: 0.8;
 	
 }
 
@@ -140,7 +141,7 @@ h2 {
 .imgHolder span, .imgHolder-R span{
 	position:absolute;
 	font-family:"Georgia", "Times New Roman", Times, serif;
-	background-color:#4aaaa5;
+	background-color:#7200be;
 	color:white;
 	padding: 15px;
 	margin: 0;
@@ -150,7 +151,7 @@ h2 {
 	bottom: 20px;
 	left: 0px;
 }
-.container{
+.container1{
 	position:relative;
 	margin: 0 auto 0 auto;
 	padding: 0 auto 0 auto;
@@ -159,15 +160,29 @@ h2 {
 	display: flex;
 }
 
+.container2{
+    float: left;
+    color: black;
+}
+
+.container3{
+	float: left;
+}
+
+.container4{
+	float: left;
+}
+
+
 /*Social Icon sidebar*/
 #connect{
-	background-color:white;
-	border: 1px solid #dddddd;
+
 	float:right;
 	margin: 0px;
 	margin-left: 40px;
-	width: 250px;
-	height: 180px;
+	width: 150px;
+    height: 180px;
+    size: 40px;
 	
 }
 
